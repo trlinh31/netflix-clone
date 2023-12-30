@@ -16,12 +16,12 @@ function Navbar() {
         <div>
           <a
             href="#"
-            className="px-4 py-2 text-white font-semibold">
+            className="px-4 py-2 text-sm md:text-xl text-white font-semibold">
             Sign In
           </a>
           <a
             href="#"
-            className="bg-primary px-4 py-2 text-white font-semibold rounded-md">
+            className="bg-primary text-sm md:text-xl px-4 py-2 text-white font-semibold rounded-md">
             Sign Up
           </a>
         </div>

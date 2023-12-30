@@ -18,8 +18,8 @@ function Row(props) {
     fetchData();
   }, []);
   return (
-    <div className="container px-4 md:px-20 my-3">
-      <h3 className="text-white font-bold md:text-xl pb-4">{props.title}</h3>
+    <div className="container px-4 md:px-20 mt-3 mb-10">
+      <h3 className="text-white font-bold text-3xl md:text-4xl pb-4">{props.title}</h3>
       <Swiper
         slidesPerView={2}
         spaceBetween={10}
