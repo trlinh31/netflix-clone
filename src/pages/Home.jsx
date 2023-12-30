@@ -15,11 +15,9 @@ function Home() {
     setLoading(false);
     try {
       const response = await axios.get(
-        `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${keywords}&include_adult=false&language=en-US`
+        `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${keywords}&language=en-US`
       );
-      if (response.data.results.length === 0) {
-        console.log('Not Found');
-      } else {
+      if (response.data.results.length > 0) {
         setMovies(response.data.results);
       }
     } catch (error) {
