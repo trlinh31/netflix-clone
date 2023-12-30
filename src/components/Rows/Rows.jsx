@@ -13,11 +13,11 @@ function Rows() {
         fetchURL={requests.requestTrendingMovie}
       />
       <Row
-        title="Action Movie"
+        title="Action Movies"
         fetchURL={requests.requestActionMovie}
       />
       <Row
-        title="Horror Movie"
+        title="Horror Movies"
         fetchURL={requests.requestHorrorMovie}
       />
       <Row
