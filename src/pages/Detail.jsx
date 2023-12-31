@@ -56,7 +56,7 @@ function Detail() {
             <div className="my-3">
               <h1 className="text-white font-medium text-2xl">{movie?.title}</h1>
             </div>
-            <div className="flex flex-wrap items-center my-3">
+            <div className="flex flex-wrap items-center gap-y-4 my-3">
               {genres.map((item) => (
                 <p
                   className="text-white mr-3 bg-primary px-3 py-1"
