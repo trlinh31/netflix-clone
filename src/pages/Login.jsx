@@ -25,14 +25,14 @@ function Login() {
     }
   };
   return (
-    <div className="w-full min-h-screen flex items-center justify-center">
+    <div className="w-full h-screen flex items-center justify-center">
       <img
         src={Banner}
         className="w-full h-full absolute object-cover"
         alt="Netflix"
       />
       <div className="overlay bg-black/60 w-full h-screen absolute top-0 left-0 z-20"></div>
-      <div className="max-w-[450px] h-[500px] mx-auto bg-black/75 text-white p-16 z-30">
+      <div className="max-w-[450px] h-[500px] bg-black/75 text-white p-16 z-30">
         <h1 className="font-bold text-4xl mb-10">Sign In</h1>
         <form onSubmit={handleSubmit}>
           <input
