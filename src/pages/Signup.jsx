@@ -28,14 +28,14 @@ function Signup() {
   };
 
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen flex items-center justify-center">
       <img
         src={Banner}
         className="w-full h-full absolute object-cover z-20"
         alt="Netflix"
       />
       <div className="overlay bg-black/60 w-full h-screen absolute top-0 left-0 z-20"></div>
-      <div className="absolute w-full px-4 pt-24 z-20">
+      <div className="absolute w-full z-20">
         <div className="max-w-[450px] h-[600px] mx-auto bg-black/75 text-white p-16">
           <h1 className="font-bold text-4xl mb-10">Sign Up</h1>
           <form onSubmit={handleSubmit}>
