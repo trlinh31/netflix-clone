@@ -1,7 +1,4 @@
-import axios from 'axios';
-import { useState } from 'react';
 import { IoMdSearch } from 'react-icons/io';
-import { useNavigate } from 'react-router-dom';
 
 function FormSearch({ keywords, setKeywords }) {
   return (

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import requests from '../Request';
 import FormSearch from '../components/FormSearch/FormSearch';
 import Main from './Main';
 import axios from 'axios';
